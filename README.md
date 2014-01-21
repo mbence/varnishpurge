@@ -79,7 +79,9 @@ $app->register(new MBence\VarnishPurge\VarnishPurgeProvider(), array(
 ```
 You can turn the purge off with 'purge' => 'Off'
 
-### Step 3: Call the service
+## Usage
+
+Call the service with a url
 
 ``` php
 $app['varnish']->purge('/hello');
