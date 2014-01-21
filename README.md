@@ -62,10 +62,10 @@ Add the following in your composer.json:
 Then download / update by running the command:
 
 ``` bash
-$ php composer.phar update mbence/varanishpurge
+$ php composer.phar update mbence/varnishpurge
 ```
 
-Composer will install the bundle to your project's `vendor/mbence/varanishpurge` directory.
+Composer will install the bundle to your project's `vendor/mbence/varnishpurge` directory.
 
 ### Step 2: Register the provider
 
