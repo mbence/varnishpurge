@@ -36,7 +36,7 @@ class VarnishPurger
                     $port = 80;
                 }
                 // purge
-                $this->purgeURL( $hostname, $port, $url, true );
+                $this->purgeURL( $hostname, $port, $url, false );
             }
         }
         return $url;
