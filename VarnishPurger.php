@@ -48,7 +48,7 @@ class VarnishPurger
             "http://%s:%d%s", $hostname, $port, $purgeURL
         );
 
-        print( "Purging ${finalURL}\n" );
+        //print( "Purging ${finalURL}\n" );
 
         $curlOptionList = array(
             CURLOPT_RETURNTRANSFER    => true,
